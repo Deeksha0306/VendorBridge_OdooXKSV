@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
-
-const API = 'http://localhost:5000/api';
+const API = 'https://vendorbridge-odooxksv.onrender.com/api';
 
 function App() {
   const [page, setPage] = useState('login');
