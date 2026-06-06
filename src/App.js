@@ -555,7 +555,7 @@ function Invoice({ navigate }) {
           <h1 style={s.pageTitle}>Invoice</h1>
           <div style={{ display: 'flex', gap: 12 }}>
             <button style={{ ...s.btnPrimary, width: 'auto' }} onClick={() => window.print()}>🖨️ Print Invoice</button>
-            <button style={{ ...s.btnPrimary, width: 'auto', background: 'linear-gradient(135deg, #065f46, #047857)' }}>📧 Send via Email</button>
+            <button style={{ ...s.btnPrimary, width: 'auto', background: 'linear-gradient(135deg, #065f46, #047857)' }} onClick={() => window.open('mailto:vendor@digiworld.com?subject=Invoice INV-2024-0042&body=Please find attached invoice for 20 Laptops. Grand Total: ₹92,040')}>📧 Send via Email</button>
           </div>
         </div>
         <div style={{ background: '#1e293b', border: '1px solid #334155', borderRadius: 12, padding: 32, maxWidth: 750 }}>
