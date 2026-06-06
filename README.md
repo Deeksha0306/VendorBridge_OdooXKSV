@@ -3,11 +3,17 @@
 ## 🚀 Live Demo
 👉 [Click here to open the app](https://vendorbridge-two.vercel.app)
 
-**Login:** admin@vendor.com / admin123
+**Login credentials:**
+- Email: admin@vendor.com
+- Password: admin123
+
+## 🔗 Links
+- 🌐 Live App: https://vendorbridge-two.vercel.app
+- 💻 GitHub: https://github.com/Deeksha0306/VendorBridge_OdooXKSV
 
 ## 📋 Features
 - Role-based login (Procurement Officer / Manager / Vendor / Admin)
-- Vendor Management with search
+- Vendor Management with search and add
 - RFQ Creation and Management
 - Quotation Comparison with lowest price highlight
 - Approval Workflow (Approve/Reject)
@@ -17,9 +23,7 @@
 
 ## 🛠️ Tech Stack
 - React.js (Frontend)
-- Recharts (Analytics charts)
-- Vercel (Deployment)
-
-## 🖥️ How to Run Locally
-npm install
-npm start
+- Node.js + Express (Backend)
+- MongoDB Atlas (Database)
+- Vercel (Frontend Deployment)
+- Render (Backend Deployment)
